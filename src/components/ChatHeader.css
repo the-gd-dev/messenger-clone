@@ -1,0 +1,21 @@
+#chat-header {
+    padding:0.5rem 1rem ;
+    background-color: rgb(10 104 255 / 85%);;
+}
+#chat-header .default-user{
+    font-size: 4rem;
+    color: rgb(163 234 255);
+}
+#chat-header .user-image{
+   height: 64px;
+   border-radius: 50%;
+}
+#chat-header .leave-room{
+    margin-top: 0.8rem;
+    background: #2f95ff;
+    border-color: #2f95ff;
+}
+#chat-header .username{
+    margin-top: 1rem;
+    color: #fff;
+}

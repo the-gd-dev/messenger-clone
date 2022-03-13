@@ -1,0 +1,99 @@
+#people {
+    height: 665px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: auto;
+    padding-right: 0;
+}
+#people ul li {
+    border-left:none!important;
+    border-right:none!important;
+}
+#collapse-people-header {
+    display: none;
+}
+@media (max-width:768px){
+    #collapse-people-header {
+        display: inline;
+    }
+    #people__wrapper.col-md-4 #people ul {
+        display: block !important;
+    }
+    #messages__wrapper {
+        padding-left:1rem !important;
+    }
+    .messages__wrapper_cw {
+        width: 100%;
+    }
+    #people__wrapper {
+        position: absolute;
+        width: 93%;
+        z-index: 10;
+        /* padding-right: 0.85rem !important; */
+        background-color: #fff;
+    }
+    #messages__wrapper{
+        position: relative;
+        z-index: 5;
+    }
+    
+    #people__wrapper.collapsed-sidebar #people{
+        border-left:none!important;
+    }
+    #collapse-people,
+    #people__wrapper.collapsed-sidebar{
+        display: none !important;
+    }
+}
+@media (min-width: 768px){
+    .collapsed-sidebar {
+        -ms-flex: 0 0 10%;
+        flex: 0 0 10%;
+        width: 10%;
+        /* padding-right: 15px; */
+        /* padding-left: 15px; */
+    }
+    .messages__wrapper_cw{
+        width: 90%;
+    }
+    #messages__wrapper{
+        border-left:#ccc solid 1px;
+        border-bottom-left-radius:18px ; 
+    }
+    
+}
+#people .person-name{
+    margin-left: 2rem;
+    margin-top: 0.75rem;
+}
+#people__wrapper.collapsed-sidebar #people ul{
+    display: block;
+}
+.collapsed-sidebar #people .person-name{
+    display: none;
+}
+#people .list-group .list-group-item:hover {
+    background-color: rgb(241, 241, 241);
+}
+#people .list-group .list-group-item {
+    cursor: pointer;
+    padding: 15px 0;
+}
+#people .list-group .list-group-item img{
+  height: 50px;
+  width: 50px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+#people::-webkit-scrollbar {
+width: 0.5em;
+}
+
+#people::-webkit-scrollbar-track {
+background-color: #acd3ff;
+}
+
+#people::-webkit-scrollbar-thumb {
+background-color: rgb(26, 124, 236);
+}

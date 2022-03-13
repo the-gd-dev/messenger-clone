@@ -1,0 +1,89 @@
+
+
+.messages__fbmc h6 {
+  margin: 8px 0;
+  color:#555;
+  width: 100%;
+  font-weight: 500 !important;
+}
+
+
+.messages__fbmc small {
+  display: block;
+  color:rgb(182, 182, 182);
+  margin-top: 1.25rem;
+  padding: 0 0.25rem;
+}
+.messages__fbmc .msg_text {
+  padding:0.5rem 1rem;
+  display: inline-block;
+  max-width:450px;
+  word-wrap: break-word;
+  border-radius: 1rem;
+}
+.messages__fbmc .default-user {
+    font-size: 2rem;
+    margin-top: 1e;
+    position: relative;
+    top: 0.2em;
+    color: #c0c0c0;
+}
+.messages__fbmc .sender .default-user {
+  float: right;
+  margin-left: 0.25em;
+}
+.messages__fbmc .not_sender .default-user {
+  float: left;
+  margin-right: 0.25em;
+}
+.messages__fbmc .sender {
+  text-align: right;
+  justify-content: end;
+}
+.messages__fbmc .not_sender{
+  justify-content: start;
+  text-align: left;
+}
+
+.sender .msg_text{
+  text-align: right;
+  background-color: rgb(26, 124, 236);
+  color: #ffffff;
+}
+.not_sender .msg_text{
+  text-align: left;
+  background-color: #e6e6e6;
+  color: rgb(29, 29, 29);
+}
+
+.messages__fbmc .user-left{
+  text-align: center;
+  font-size: 16px;
+  color: #a5a5a5;
+}
+
+.messages__fbmc .not_sender img.userPhoto{
+  float: left;
+  right: 5px;
+}
+.messages__fbmc .sender img.userPhoto{
+  float: right;
+  left: 10px;
+}
+.messages__fbmc .not_sender img.userPhoto,
+.messages__fbmc .sender img.userPhoto{
+  height: 35px;
+  position: relative;
+  width: 35px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+span.reply {
+  max-width:450px;
+  word-wrap: break-word;
+  background: #e9e9e9;
+  color: #555555;
+  padding: 0.5em 1em;
+  border-radius: 18px;
+}

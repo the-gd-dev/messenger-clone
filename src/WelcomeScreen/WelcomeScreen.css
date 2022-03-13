@@ -1,0 +1,65 @@
+#welcome-page section {
+    margin-bottom: 5rem ;
+}
+path.p361ku9c {
+    fill: white;
+}
+@media (max-width:992px) {
+    .text-part .display-4 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .text-part p {
+        font-size: 1.5rem;
+    }
+}
+button.join-btn {
+    padding: 0 2rem;
+    position: relative;
+    height: 50px;
+    outline: none;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    background: #1a51ec;
+    color: #fff;
+    cursor: pointer;
+  }
+.introduction .intro-image{
+    display: none;
+}
+  /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .google-sign-in-btn-wrap{
+        padding: 2em 1em;
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .introduction .intro-image{
+        display: block;
+
+    }
+    .introduction .intro-image img {
+        height: 70%;
+        width: 70%;
+    }
+  
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ 
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+}
